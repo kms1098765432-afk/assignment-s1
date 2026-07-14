@@ -54,10 +54,11 @@ nav ul li a{
 /* hero banner */
 
 .hero{
+
    background-image: url(./B14-A01-DevConf-2026/assets/banner.jpg); 
    background-size: cover;
    background-position: center;
-   width: cover;
+   width: 100%;
    height: 786px;
    text-align: center;
 }
@@ -65,13 +66,18 @@ nav ul li a{
     font-size: 50px;
     font-weight: bold;
     color: white; 
+    margin-bottom: 15px;
 }
 .hero p{
     font size: 20px;
+    line-height: 1.6;
+    /* margin-bottom: 100px; */
     color: white;
     width: 600px;
-    margin: 20px auto;
+    margin-bottom : 400px; 
+
 }
+
 /* end banner */
 
 /* speakers */
@@ -109,4 +115,144 @@ nav ul li a{
 .card-content p{
     margin: 0;
     color: gray;
+}
+/* speakers end */
+
+
+/* secure */
+
+.secure{
+     width: 80%;
+     margin: 80px auto;
+    
+}
+.secure h2{
+    text-align: center;
+    font-size: 35px;
+     color: #0f172a; 
+
+}
+.secure p{
+    text-align:center;
+    color:#7c8798;
+    font-size:14px;
+    margin-top:8px;
+    margin-bottom:45px;
+}
+  .secure-card{
+     width: 100%;
+    margin: auto;
+    gap: 30px; 
+    padding: 10px;  
+  }
+
+.spot{
+    width: 300px;
+    border: 1px solid #ddd;
+    background:#fff;
+    border-radius: 12px;
+    padding: 24px;
+}
+
+.plan{
+    color:#7c8db5;
+    font-size:12px;
+    font-weight:bold;
+    letter-spacing:1px;
+    margin-bottom: 10px;
+
+}
+.spot h2{
+    font-size: 45px;
+   color:#051d4c ; 
+    
+}
+.sub{
+    color:gray;
+    font-size: 15px;
+
+}
+ .spot hr{
+    border:none;
+     border-top:1px solid #e5e7eb;
+     margin:20px 0;
+}
+.spot ul{
+    padding-left:18px;
+}
+.spot ul li{
+     font-size:12px;
+    color:#334155;
+    margin-bottom:14px;
+    line-height:1.3;
+}
+.spot button{
+     width:100%;
+    height:46px;
+    
+    margin-top:20px;
+    border:2px solid #3366ff;
+    border-radius:8px;
+    background: white;
+    color: #3366ff;
+    font-weight: 600;
+    cursor: pointer;
+}
+.spot button:hover{
+    background:#3366ff;
+    color:white;
+}
+.chance{
+      background:#0f1d31;
+}
+.chance plan{
+    color:#6ea8ff;
+}
+.chance h2{
+    color: white;
+}
+/* .chance sub{
+    color: white;
+} */
+.chance ul li{
+    color: white;
+}
+.chance button{
+    background:#3366ff;
+    color: #fefefe;
+}
+/* secure ends */
+
+
+/* footer */
+
+footer{
+    background: #111827;
+    padding: 20px 100px;
+
+}
+ .footer-container{
+    width: 100%;
+    margin: auto;
+
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+ }
+
+ .footer-container p{
+     color: #9ca3af;
+    font-size: 14px;
+ }
+ .footer-link{
+    display: flex;
+    gap: 30px;
+}
+.footer-link a{
+    color: #9ca3af;
+    text-decoration: none;
+    font-size: 14px;
+}
+.footer-link a:hover{
+    color: white;
 }
